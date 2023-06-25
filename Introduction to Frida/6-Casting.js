@@ -1,0 +1,6 @@
+Java.perform(() => {
+    // ...
+    var stringClass = Java.use("java.lang.String");
+    var stringInstance = Java.cast(ptr(args[0]), stringClass);
+    // ...
+});
